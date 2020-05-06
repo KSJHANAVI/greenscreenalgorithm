@@ -1,0 +1,26 @@
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+<h1>Image Upload</h1>
+
+<p>
+  <table>
+    <tr>
+      <td><canvas id="fgcan"></canvas></td>
+      <td><canvas id="bgcan"></canvas></td>
+      <td><canvas id="opcan"></canvas></td>
+    </tr>
+   <tr>
+ <td> <input type="file" multiple="false"
+         id="fgimg" name="img" accept="image/*"></td>
+  <td><input type="file" multiple="false"
+             id="bgimg" name="img" accept="image/*"></td>
+    </tr>
+    <tr>
+  <td><input type="button" id="ufg" value="upload fore-ground image"
+             onclick="uploadfg()"></td>
+  <td><input type="button" value="upload back-ground image"
+             onclick="uploadbg()"></td>
+  <td><input type="button" value="See Output"
+             onclick="seeoutput()"></td>
+    </tr>
+</p>
